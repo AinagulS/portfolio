@@ -1,0 +1,355 @@
+@media (max-width: 1200px)
+{
+	body {
+		font-size: 16px;
+	}
+	.container {
+		width: 90%;
+	}
+
+	.header {
+		width: 90%;
+	}
+
+	nav {
+		width: 80%;
+	}
+
+	.menu li {
+		font-size: 16px;
+	}
+
+	.header_close {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 52px;
+	}
+
+	.sub {
+    font-size: 20px;
+	}
+
+	.btn_submit {
+    font-size: 18px;}
+
+    h2 {
+    font-size: 32px;}
+
+    .card_text {
+    font-size: 18px;}
+
+    .procent_text {
+    font-size: 20px;}
+
+    .medias path {
+    	fill: #88818a;
+    }
+}
+
+@media (max-width: 992px)
+{
+	.header {
+		flex-direction: column;
+	}
+
+	nav {
+		flex-direction: column;
+		padding: 65px 0 30px;
+		align-items: flex-start;
+		width: 30%;
+		margin-right: 70%;		
+	}
+
+	.menu {
+		padding: 0;
+		flex-direction: column;
+	}
+
+	.main {
+		padding-top: 60px;
+		background-position: right -60% top;
+	}
+
+	.work {
+		flex-direction: column;
+	}
+
+	.frame {
+		width: 95%;
+	}
+
+	.work p {
+		width: 95%;
+	}
+
+	.fotter_title {
+		font-size: 18px;
+	}
+
+	.white_text {
+		color: #000;
+		font-size: 16px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	.header_close {
+		width: 70%;
+	}
+
+	nav {
+		margin-right: 55%;
+	}
+
+	.main {
+		background-size: 100%;
+	}
+
+	.right-side {
+		width: 90%;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.right-side img {
+		width: 70%;
+	}
+
+	.left-side {
+		width: 90%;
+	}
+
+	h1 {
+		font-size: 46px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	.card_steps {
+		flex-wrap: wrap;
+		background-image: none;
+		margin: 30px 0;
+	}
+
+	.card_text {
+		font-size: 14px;
+	}
+
+	.sub {
+		font-size: 18px;
+	}
+
+	.cardinner {
+		width: 40%;
+		justify-content: center;
+		padding-bottom: 40px;
+	}
+
+	.reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.prev_fotter {
+		flex-direction: column-reverse;
+		m
+	}
+
+	.centers {
+		margin: 0 auto;
+	}
+
+	footer {
+		justify-content: center;
+		align-items: center;
+	}
+
+	footer p {
+		margin-left: 20px;
+	}
+
+	#sticky-btn {
+		padding: 5px;
+	}
+
+	#sticky-btn img {
+		width: 24px;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		font-size: 12px;
+		overflow-x: hidden;
+	}
+	.header_close {
+		width: 40%;
+	}
+
+	nav {
+		width: 80%;
+		margin-right: 10%;
+		padding: 40px 0 20px;
+	}
+
+	.nav_title {
+		margin: 8px 0;
+	}
+
+	.header_close img {
+		display: none;
+	}
+
+	.menu li {
+		margin-bottom: 10px;
+	}
+
+	.main {
+   		background-size: 130%;
+   		background-position: top;
+	}
+
+	h1 {
+		font-size: 28px;
+		margin: 25px 0 10px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+
+	.sub {
+		font-size: 14px;
+		font-weight: normal;
+		margin: 4px 0 16px;
+	}
+
+	.btn_submit {
+		font-size: 12px;
+	}
+
+	.aboutme {
+		padding-top: 50px;
+	}
+
+	.card {
+		flex-direction: column;
+	}
+
+	.card p {
+		width: 100%;
+		font-weight: normal;
+	}
+
+	.card_img {
+		width: 100%;
+		padding: 20px;
+		background-size: contain;
+
+	}
+
+	.card_img img {
+		width: 150px;
+	}
+
+	.reverses {
+		flex-direction: column-reverse;
+	}
+
+	.myskills h2 {
+
+	}
+
+	.purple {
+		height: 25px;
+	}
+
+	.procent_text {
+		font-size: 14px;
+	}
+
+	.myskills {
+		margin-top: 50px;
+	}
+
+	.myworks {
+		margin: 0;
+	}
+
+	.gradients {
+		width: 90%;
+	}
+
+	.work {
+		padding: 10px;
+	}
+
+	.steps {
+		padding-top: 35px;
+		background-repeat: repeat;
+		background-size: 100%;
+		background-position: top;
+	}
+
+	.steps_inner{
+		padding: 0;
+	}
+
+	.cardinner {
+		height: auto;
+		align-items: center;
+	}
+
+	.cardinner:hover .card_title {
+		top:50%;
+		background-color: rgba(227, 137, 248, 0.8);
+	}
+
+	.card_inner {
+		width: 110px;
+		height: 110px;
+	}
+
+	.card_steps {
+		margin: 0;
+	}
+
+	.gifka {
+		width: 90% !important;
+	}
+
+	footer {
+		padding-left: 20px;
+		font-size: 12px !important;
+		justify-content: start;
+	}
+
+	footer h5 {		
+		width: 60%;
+	}
+
+	footer p {
+    margin-left: 0;
+	}
+
+	.form_inner {
+		width: 70%;
+	}
+
+	.button {
+   	 	width: 80px;
+    	height: 25px;
+    }
+
+	.send {
+		font-size: 14px;
+	}
+
+	
+
+}
