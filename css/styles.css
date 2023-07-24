@@ -575,11 +575,12 @@ body.night-mode #sticky-btn:hover {
 	border-radius: 25px;
 	margin: 8% auto;
 	padding: 20px;
+	position: relative;
 }
 
 .form_inner p {
 	text-align: center;
-	color: #E389F8;
+	color: #541A61;
 	margin-bottom: 25px;
 	font-weight: bold;
 }
@@ -650,6 +651,19 @@ body.night-mode #sticky-btn:hover {
 	border: none;
 	border-radius: 25px;
 	padding: 8px 16px;
+}
+
+.close_img {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	transition: all 0.6s linear;
+}
+
+.close_img:hover {
+	transform: rotate(180deg);
+	width: 26px;
+	height: 26px;
 }
 
 footer {
