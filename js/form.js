@@ -1,4 +1,4 @@
-
+//Скрипт для инпутов 
 	const input = document.querySelector("#input");
 	const label = document.querySelector('#label');
 	const input2 = document.querySelector("#input2");
@@ -55,14 +55,10 @@ form.style.display = 'block'; // отображаем форму
 fadeIn(form, 0); // запускаем плавное появление формы
 }
 
-const send = document.querySelector('#send');
-send.addEventListener('click', function () {
-fadeOut(form, 1); // запускаем плавное исчезновение формы
-});
 
 function fadeIn(element, opacity) {
 if (opacity < 1) {
-opacity += 0.2; // увеличиваем прозрачность на 0.1
+opacity += 0.1; // увеличиваем прозрачность на 0.1
 element.style.opacity = opacity; // устанавливаем новую прозрачность
 setTimeout(function () {
 fadeIn(element, opacity); // вызываем рекурсивно функцию, пока прозрачность не достигнет 1
@@ -90,3 +86,17 @@ form.style.opacity = '0'; // устанавливаем начальную пр�
 form.style.display = 'block'; // отображаем форму
 fadeIn(form, 0); // запускаем плавное появление формы
 }
+
+const send = document.querySelector('#send');
+const closeImg =document.querySelector('#closeImg');
+
+send.addEventListener('click', function () {
+fadeOut(form, 1); // запускаем плавное исчезновение формы
+});
+
+
+closeImg.addEventListener('click',  function () {
+fadeOut(form, 1); // запускаем плавное исчезновение формы
+});
+
+
