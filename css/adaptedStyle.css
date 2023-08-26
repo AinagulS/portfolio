@@ -80,6 +80,27 @@
 		width: 95%;
 	}
 
+	.frame img {
+		position: absolute;
+		top: 0;
+  		animation-name: example-animation; /* название анимации */
+  		animation-duration: 12s; /* продолжительность анимации */
+  		animation-timing-function: linear; /* функция времени для плавного перехода */
+  		animation-iteration-count: infinite;
+}
+
+
+@keyframes example-animation {
+  0% {
+    top: 0;
+  }
+  100% {
+  	top: -250%;
+    
+  }
+}
+
+
 	.work p {
 		width: 95%;
 	}
